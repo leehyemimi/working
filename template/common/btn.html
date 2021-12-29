@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>마크업가이드</title>
+	<meta name="robots" content="ALL">
+	<meta name="description" content="HACKERS">
+	<meta name="keywords" content="HACKERS">
+	<link rel="shortcut icon" href="//gscdn.hackers.co.kr/hackerseducation/img/common/favicon.ico">
+
+	<!--<meta property="og:type" content="website">
+	<meta property="og:title" content="외국어인강 No.1 해커스인강">
+	<meta property="og:description" content="토익,토플,토스 스타강사 인강+교재0원!">
+	<meta property="og:url" content="http://www.champstudy.com">
+	<meta property="og:image" content="http://gscdn.hackers.co.kr/champ/files/banner/imglib_files/banner/imglib/champ_PC_ogtag_450x300_0412.jpg">
+	<meta name="google-site-verification" content="cwF8FxGjnasm7V14yCYVcmz3EvCRQaHyhQ-_Z4ldMeM" /><link rel="alternate" media="only screen and (max-width: 640px)"  href="http://m.champ.hackers.com/">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/_core/images/ico/champstudy/apple-touch-icon-144-precomposed.png">-->
+
+	<link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/common/bxslider.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/sub.css"><!--메인에는 sub.css 호출하지않음-->
+	<script type="text/javascript" src="../assets/plugins/jquery/1.11.2/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../assets/plugins/jquery-bxslider/4.1.2/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="../assets/js/bxslider.js"></script>
+	<script type="text/javascript" src="../assets/js/ui.js"></script>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="guide.css">
+<script type="text/javascript" src="guide.js"></script>
+<div id="sidebar">
+	<strong>
+		<a href="guide.html">마크업 가이드</a>
+	</strong>
+
+	<ul class="nav">
+		<li class="on">
+			<a href="layout-sub.html" target="_blank">layout sub (새창)</a>
+			<!--ul>
+				<li><a href="layout-sub.html" target="_blank">sub</a></li>
+			</ul-->
+		</li>
+		<li>
+			<a href="title.html">Title</a>
+		</li>
+		<li>
+			<a href="table.html">Table</a>
+			<ul>
+				<li><a href="#board-wrap">board type</a></li>
+				<li><a href="#board-detail-wrap">board detail</a></li>
+				<li><a href="#board-form-wrap">board write</a></li>
+				<li><a href="#table-wrap">table type</a></li>
+				<li><a href="#faq-list-wrap">faq type</a></li>
+				<li><a href="#paginate">paginate</a></li>
+
+			</ul>
+		</li>
+		<li>
+			<a href="btn.html">Btn</a>
+		</li>
+		<li>
+			<a href="icon.html">Icon</a>
+		</li>
+		<li>
+			<a href="tab.html">Tab</a>
+		</li>
+		<li>
+			<a href="form.html">Form</a>
+		</li>
+		<li>
+			<a href="description.html">Description</a>
+		</li>
+		<!--<li>
+			<a href="layer_layout">layer_layout</a>
+		</li>-->
+		<li>
+			<a href="layer.html">Layer Popup</a>
+		</li>
+		<li>
+			<a href="bxslide.html">Bx Slide</a>
+		</li>
+		<li>
+			<a href="script.html">Script</a>
+		</li>
+		<li>
+			<a href="https://github.com/leehyemimi/work/blob/master/template/common/scss.md" target="_blank">SCSS GUIDE (새창)</a>
+		</li>
+	</ul>
+</div>
+
+<div id="wrap">
+	<div id="content">
+
+		<!--작업영역-->
+		<div class="inner-box">
+			<h3 class="guide-tit" id="btn">btn</h3>
+			<h4 class="guide-tit">기본</h4>
+
+			<a href="#" class="btn-xsmall">XS버튼</a> <br> <br>
+			<a href="#" class="btn-xsmall">XS버튼 arrow<i class="btn-ico-arrow"></i></a>
+			<br> <br>
+
+			<a href="#" class="btn-small">S버튼</a>
+			<a href="#" class="btn-small v2">.btn-small.v2</a>
+			<a href="#" class="btn-small v3">S버튼.3</a>
+			<a href="#" class="btn-small v4">S버튼_v4</a>
+
+			<a href="#" class="btn-small v2">XS버튼 arrow<i class="btn-ico-arrow2"></i></a>
+			<a href="#" class="btn-small">XS버튼 arrow<i class="btn-ico-arrow3"></i></a>
+			<br> <br>
+
+			<a href="#" class="btn-medium">m버튼</a>
+			<a href="#" class="btn-medium v2">m버튼</a>
+			<a href="#" class="btn-medium v3">m버튼</a>
+			<a href="#" class="btn-medium v4">m버튼</a>
+			<a href="#" class="btn-medium v5">m버튼</a>
+			<br> <br>
+
+			<a href="#" class="btn-large">l버튼</a>
+			<a href="#" class="btn-large v2">l버튼</a>
+			<a href="#" class="btn-large v3">l버튼</a>
+			<a href="#" class="btn-large v4">l버튼</a>
+			<br> <br>
+
+			<a href="#" class="btn-link point-color">1:1 빠른 상담 &gt; </a>
+
+			<br><br>
+			<h4 class="guide-tit">btn-gif 이미지버튼</h4>
+			<a href="#" class="btn-gif"><img src="//gscdn.hackers.co.kr/cpa/img/lecture/btn_deadline.gif" alt="마감임박 수강신청" width="149" height="40"></a>
+			<br> <br>
+
+			<h3 class="guide-tit">btn-wrap</h3>
+			<h4 class="guide-tit">btn-wrap-center</h4>
+
+			<div class="btn-wrap-center">
+				<a href="#" class="btn-large v2">l버튼</a>
+				<a href="#" class="btn-large">l버튼</a>
+			</div>
+			<h4 class="guide-tit">btn-wrap-right</h4>
+			<div class="btn-wrap-right">
+				<a href="#" class="btn-small">S버튼</a>
+				<a href="#" class="btn-small v2">S버튼</a>
+			</div>
+			<h4 class="guide-tit">btn-wrap-left</h4>
+			<div class="btn-wrap-left">
+				<a href="#" class="btn-small">질문하기</a>
+				<a href="#" class="btn-small v2">내 질문내역 확인하기</a>
+			</div>
+			<br><br>
+
+			<h3 class="guide-tit">rating star</h3>
+			<h4 class="guide-tit">rating star view</h4>
+			<span class="rating-star-view">
+				<span class="star-default">
+					<strong class="star-score" style="width:20%;">
+						<span class="blind">별1개</span>
+					</strong>
+				</span>
+			</span><hr>
+			<span class="rating-star-view">
+				<span class="star-default">
+					<strong class="star-score" style="width:40%;">
+						<span class="blind">별2개</span>
+					</strong>
+				</span>
+			</span><hr>
+			<span class="rating-star-view">
+				<span class="star-default">
+					<strong class="star-score" style="width:60%;">
+						<span class="blind">별3개</span>
+					</strong>
+				</span>
+			</span><hr>
+			<span class="rating-star-view">
+				<span class="star-default">
+					<strong class="star-score" style="width:80%;">
+						<span class="blind">별4개</span>
+					</strong>
+				</span>
+			</span><hr>
+			<span class="rating-star-view">
+				<span class="star-default">
+					<strong class="star-score" style="width:100%;">
+						<span class="blind">별5개</span>
+					</strong>
+				</span>
+			</span>
+
+
+			<br><br>
+			<h3 class="guide-tit">sp_btn.png</h3>
+			<div style="background:#f00">
+				<img src="//gscdn.hackers.co.kr/ecpa/img/common/sp_btn.png" alt="">
+			</div>
+
+
+		</div>
+		
+		<!--//작업영역-->
+
+	</div>
+</div>
+</body>
+</html>
